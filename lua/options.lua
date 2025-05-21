@@ -1,5 +1,5 @@
 vim.cmd("set expandtab")
-vim.cmd("set tabstop=4")
+vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 vim.g.mapleader = " "
@@ -33,3 +33,7 @@ vim.notify = function(msg, ...)
 	return notify_original(msg, ...)
 end
 vim.opt.swapfile = false
+
+-- Dùng `g;` để vào command-line mode
+vim.keymap.set("n", ";", ":", { noremap = true })
+

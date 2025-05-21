@@ -13,5 +13,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("options")
+require("floating-term")
 require("lazy").setup("plugins")
 
