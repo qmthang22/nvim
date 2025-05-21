@@ -27,3 +27,4 @@ return {
 		vim.cmd("highlight CursorLine guibg=NONE")
 	end,
 }
+
